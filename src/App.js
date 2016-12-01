@@ -1,15 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Places from './Components/Places';
+import Skills from './Components/Skills';
+import Workflow from './Components/Workflow';
+import Interests from './Components/Interests';
+import Testimonials from './Components/Testimonials';
+import Education from './Components/Education';
+import Contact from './Components/Contact';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Resume</h2>
-        </div>
+        <Places />
+        <Skills />
+        <Workflow />
+        <Interests />
+        <Testimonials />
+        <Education />
+        <Contact />
       </div>
     );
   }
