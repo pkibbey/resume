@@ -1,2 +1,7 @@
 .Places {
 }
+
+.Places-Wrapper {
+  display: flex;
+  justify-content: space-between;
+}

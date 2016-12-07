@@ -1,2 +1,22 @@
 .Interests {
 }
+
+.pswp-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pswp-thumbnail {
+  padding: 0 4px 4px 0;
+  height: 120px;
+  overflow: hidden;
+}
+
+.pswp-thumbnail img {
+  height: 100%;
+}
+
+.pswp-gallery {
+  display: flex;
+  clear: left;
+}

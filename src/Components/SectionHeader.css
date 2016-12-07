@@ -1,0 +1,11 @@
+.Section__Header {
+  text-align: center;
+  margin: 10px;
+}
+
+.Section__Icon {
+  font-size: 50px;
+  color: #CCC;
+  text-align: center;
+  margin-bottom: 10px;
+}

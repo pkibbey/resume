@@ -1,2 +1,9 @@
 .Skills {
 }
+
+.Skills__Cloud {
+  text-align: center;
+  background-color: #3e3833;
+  padding: 20px;
+  border-radius: 3px;
+}

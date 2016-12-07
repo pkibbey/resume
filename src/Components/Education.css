@@ -1,2 +1,7 @@
 .Education {
 }
+
+.Ecucation_Schools {
+  display: flex;
+  justify-content: space-between;
+}

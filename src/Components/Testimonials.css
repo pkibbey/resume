@@ -4,4 +4,5 @@
 .Testimonials_People {
   display: flex;
   justify-content: space-around;
+  overflow: hidden;
 }

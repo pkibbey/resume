@@ -1,2 +1,4 @@
-.Contact {
+.Contact__Wrapper {
+  display: flex;
+  justify-content: space-between;
 }

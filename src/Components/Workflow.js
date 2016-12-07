@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import MdImportantDevices from 'react-icons/lib/md/important-devices';
 import './Workflow.css';
+import SectionHeader from './SectionHeader';
 
 class Workflow extends Component {
   render() {
     return (
       <div className="Section Workflow">
-        <h3 className="Section__Header">
-          <MdImportantDevices className="Section__Icon" />
-          Workflow
-        </h3>
+        <SectionHeader
+          icon={<MdImportantDevices className="Section__Icon" />}
+          name='Workflow'
+        />
         <ul>
           <li>I prefer to work in MacOS because the interface is pretty and I am 6.28% more productive than when working on a Windows machine (I made up that statistic, it is probably more like 8.64% more productive)</li>
           <li>I like working face to face with people, being able to share ideas directly and listen to their feedback is another boost in productivity for me. I care about the little things that make the entire teams workflow easier, and being close to those people help me understand them better.</li>

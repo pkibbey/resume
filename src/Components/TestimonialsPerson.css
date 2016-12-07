@@ -1,3 +1,23 @@
 .TestimonialsPerson {
   padding: 20px;
+  display: flex;
+  flex: 1;
+}
+
+.Testimonials__Icon {
+  color: #ddd;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.TestimonialsPerson-details {
+  flex: 1;
+}
+
+.TestimonialsPerson-name {
+  font-weight: 600;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

@@ -6,9 +6,11 @@ class Testimonials extends Component {
   render() {
     return (
       <div className="TestimonialsPerson">
-        <MdPerson className="Section__Icon" />
-        <h4>Person Guy</h4>
-        <p>A quote from a person about how they feel about something</p>
+        <MdPerson className="Testimonials__Icon" />
+        <div className="TestimonialsPerson-details">
+          <div className="TestimonialsPerson-name">{this.props.person.name}</div>
+          <div>{this.props.person.quote}</div>
+        </div>
       </div>
     );
   }

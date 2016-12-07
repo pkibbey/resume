@@ -12,10 +12,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Places />
-        <Skills />
-        <Workflow />
         <Interests />
+        <Skills />
+        <Places />
+        <Workflow />
         <Testimonials />
         <Education />
         <Contact />
